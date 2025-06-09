@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Safe Download by Ekian</title>
+  <style>
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 0.5em;
+      font-weight: 700;
+      font-size: 2.5rem;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    p.subtitle {
+      font-weight: 500;
+      font-size: 1.2rem;
+      margin-bottom: 2em;
+      max-width: 600px;
+      line-height: 1.4;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+    button.download-btn {
+      background: #008CFF;
+      border: none;
+      padding: 18px 40px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      border-radius: 50px;
+      cursor: pointer;
+      color: white;
+      box-shadow: 0 6px 12px rgba(0,140,255,0.6);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+      user-select: none;
+    }
+    button.download-btn:hover {
+      background: #005fbb;
+      box-shadow: 0 8px 18px rgba(0,95,187,0.8);
+    }
+    footer {
+      margin-top: auto;
+      font-size: 0.9rem;
+      opacity: 0.7;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Download My C++ Program</h1>
+  <p class="subtitle">
+    This program was made by <strong>Ethan Hoyland</strong>.<br />
+    It is completely safe to run.<br />
+    Running this program will [explain briefly what it does here].<br />
+    Click the button below to download your copy!
+  </p>
+  <a href="path/to/yourfile.exe" download="EthanHoylandProgram.exe" id="downloadLink">
+    <button class="download-btn" type="button">Download Now</button>
+  </a>
+
+  <footer>Made by Ekian</footer>
+
+  </script>
+</body>
+</html>
