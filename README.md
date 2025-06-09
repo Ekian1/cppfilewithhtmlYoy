@@ -1,3 +1,3 @@
 # welcome
 
-got to he html and run it then click download and enjoy 😎
+go to the html and run it then click download and enjoy 😎
